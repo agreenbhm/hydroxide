@@ -1,7 +1,7 @@
 package auth
 
 import (
-	"crypto/rand"
+	"github.com/ProtonMail/crypto/rand"
 	"encoding/base64"
 	"encoding/json"
 	"errors"

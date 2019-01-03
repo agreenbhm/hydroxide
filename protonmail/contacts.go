@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/crypto/openpgp"
-	"golang.org/x/crypto/openpgp/armor"
-	"golang.org/x/crypto/openpgp/packet"
+	"github.com/ProtonMail/crypto/openpgp"
+	"github.com/ProtonMail/crypto/openpgp/armor"
+	"github.com/ProtonMail/crypto/openpgp/packet"
 )
 
 type Contact struct {

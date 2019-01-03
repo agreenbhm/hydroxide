@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/crypto/openpgp"
-	"golang.org/x/crypto/openpgp/packet"
+	"github.com/ProtonMail/crypto/openpgp"
+	"github.com/ProtonMail/crypto/openpgp/packet"
 )
 
 type AttachmentKey struct {

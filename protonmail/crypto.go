@@ -1,7 +1,7 @@
 package protonmail
 
 import (
-	"crypto"
+	"github.com/ProtonMail/crypto"
 	"hash"
 	"io"
 	"time"

@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"golang.org/x/crypto/openpgp"
+	"github.com/ProtonMail/crypto/openpgp"
 )
 
 const Version = 3

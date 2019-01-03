@@ -2,8 +2,8 @@ package protonmail
 
 import (
 	"bytes"
-	"crypto/rand"
-	"crypto/subtle"
+	"github.com/ProtonMail/crypto/rand"
+	"github.com/ProtonMail/crypto/subtle"
 	"encoding/base64"
 	"errors"
 	"io"

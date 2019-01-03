@@ -2,7 +2,7 @@ package protonmail
 
 import (
 	"bytes"
-	"crypto/sha512"
+	"github.com/ProtonMail/crypto/sha512"
 	"errors"
 
 	"github.com/emersion/go-bcrypt"
